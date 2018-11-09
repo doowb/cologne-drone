@@ -15,8 +15,8 @@ $ npm install --save cologne-drone
 ## Usage
 
 ```js
-let cologne-drone = require('cologne-drone');
-cologne-drone.activate(10)
+let sprtizer = require('cologne-drone');
+sprtizer.activate(10)
   .then(() => process.exit())
   .catch(err => {
     console.error(err);

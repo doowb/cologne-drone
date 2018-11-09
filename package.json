@@ -1,0 +1,25 @@
+{
+  "name": "cologne-drone",
+  "description": "Control your drone through an API to spray cologne on-demand!",
+  "version": "0.1.0",
+  "homepage": "https://github.com/doowb/cologne-drone",
+  "author": "Brian Woodward (https://doowb.com)",
+  "repository": "doowb/cologne-drone",
+  "bugs": {
+    "url": "https://github.com/doowb/cologne-drone/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "cologne",
+    "drone"
+  ]
+}

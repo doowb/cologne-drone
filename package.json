@@ -14,7 +14,7 @@
   ],
   "main": "index.js",
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {
     "test": "mocha"
@@ -22,5 +22,21 @@
   "keywords": [
     "cologne",
     "drone"
-  ]
+  ],
+  "devDependencies": {
+    "gulp-format-md": "^1.0.0"
+  },
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "lint": {
+      "reflinks": true
+    }
+  }
 }

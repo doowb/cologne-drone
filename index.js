@@ -3,7 +3,7 @@
 module.exports = {
   async activate(count) {
     for (let i = 0; i < count; i++) {
-      console.log('Sprizz...');
+      console.log('Spritzzz...');
     }
   }
 };
